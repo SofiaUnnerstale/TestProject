@@ -12,11 +12,13 @@ namespace TestGitHub
         {
             // Sofias program
 
-
+            List<int> test;
             for (int i = 0; i < 10; i++)
             {
+                test.Add(i);
                 Console.WriteLine("Hej");
             }
+            test.ForEach(x => Console.WriteLine(x));
         }
     }
 }
