@@ -17,6 +17,9 @@ namespace TestGitHub
             {
                 test.Add(i);
                 Console.WriteLine("Hej");
+
+                // Kommentar
+
             }
             test.ForEach(x => Console.WriteLine(x));
         }
