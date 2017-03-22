@@ -11,6 +11,12 @@ namespace TestGitHub
         static void Main(string[] args)
         {
             // Sofias program
+
+
+            for (int i = 0; i < 10; i++)
+            {
+                Console.WriteLine("Hej");
+            }
         }
     }
 }
