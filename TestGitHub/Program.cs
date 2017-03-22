@@ -12,7 +12,7 @@ namespace TestGitHub
         {
             // Sofias program
 
-            List<int> test;
+            List<int> test = new List<int>();
             for (int i = 0; i < 10; i++)
             {
                 test.Add(i);
