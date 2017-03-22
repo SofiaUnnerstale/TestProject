@@ -16,7 +16,8 @@ namespace TestGitHub
             for (int i = 0; i < 10; i++)
             {
                 test.Add(i);
-                Console.WriteLine("Hej");
+                //Console.WriteLine("Hej");
+                Console.WriteLine("Linus kod e best!");
             }
             test.ForEach(x => Console.WriteLine(x));
         }
